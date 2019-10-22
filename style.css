@@ -1,0 +1,40 @@
+canvas {
+    display: block;
+    margin: auto;
+    border:2px solid white;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#playbutton {
+    width:  100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Agency FB,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+#tutorial{
+    position: absolute;
+    display: ruby-text-container;
+    color: white;
+    margin:auto;
+    width: 400px;
+    height: 300px;
+    font-family: Agency FB,sans-serif;
+
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}
+#score{
+    position: absolute;
+    display: ruby-base-container;
+    color: white;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+}
